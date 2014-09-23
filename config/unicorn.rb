@@ -9,7 +9,7 @@ worker_processes 2
 timeout 30
 preload_app true
 
-listen "/home/deploy/apps/txtbrowser2/shared/tmp/pids/unicorn.sock"
+listen "/home/deploy/ember_demo/shared/tmp/pids/unicorn.sock"
 # listen 8080, :tcp_nopush => true
 
 before_fork do |server, worker|
