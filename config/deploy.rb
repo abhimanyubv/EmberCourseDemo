@@ -37,6 +37,9 @@ set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public
 # Default value for keep_releases is 5
 # set :keep_releases, 5
 
+# set :rvm_type, :user                     # Defaults to: :auto
+set :rvm_ruby_version, '2.1.2'
+
 namespace :deploy do
   desc "Start the application"
   task :start do
