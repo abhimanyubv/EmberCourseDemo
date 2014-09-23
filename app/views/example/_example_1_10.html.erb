@@ -1,7 +1,10 @@
 <script type="text/x-handlebars">
   <div class="navbar navbar-default">
     <div class="container">
-      {{#link-to "index" class="navbar-brand"}}<img src="/assets/logo" alt="logo" height="34" width="224">{{/link-to}}
+      {{#link-to "index" class="navbar-brand"}}
+
+        <%= image_tag "logo.png" %>
+      {{/link-to}}
       <ul class="nav navbar-nav navbar-right">
         <li href='#' class='active'>Home</li>
         <li href='#/about'>About</li>
