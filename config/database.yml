@@ -13,5 +13,6 @@ development:
   password: abhimanyu
 
 production:
+  <<: *default
   database: ember_production
   password: abhimanyu
