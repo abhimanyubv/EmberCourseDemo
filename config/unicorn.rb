@@ -1,8 +1,8 @@
 root = "/home/deploy/ember_demo/current"
 working_directory root
-pid "#{root}/tmp/pids/unicorn.pid"
-stderr_path "#{root}/log/unicorn.log"
-stdout_path "#{root}/log/unicorn.log"
+pid "/home/deploy/ember_demo/shared/tmp/pids/unicorn.pid"
+stderr_path "/home/deploy/ember_demo/shared/log/unicorn.log"
+stdout_path "/home/deploy/ember_demo/shared/log/unicorn.log"
 
 # listen "/tmp/unicorn.projectname.sock"
 worker_processes 2
