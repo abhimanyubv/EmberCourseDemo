@@ -20,7 +20,7 @@ set :stage, :production
 
 server '192.168.10.12', roles: [:web, :app, :db], primary: true, ssh_options: {
     user: "deploy",
-    port: 5498,
+    port: 5152,
     forward_agent: true,
     password: 'abhimanyu',
     auth_methods: %w(publickey)
